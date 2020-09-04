@@ -1,0 +1,12 @@
+<a [routerLink]="[index]"  routerLinkActive="active" class="list-group-item clearfix" style="cursor:'pointer'">
+    <div class="pull-left">
+    <div class="pull-left">
+        <h4 class="list-group-item-heading">{{rec.name}}</h4>
+    </div>
+            <p class="list-group-item-text">{{rec.description}}</p>
+    </div>
+           <span class="pull-right">
+               <img [src]="rec.imageURL" alt="{{rec.imageURL}}" class="img-responsive" style="max-height: 50px;">
+           </span>
+    
+</a>
